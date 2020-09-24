@@ -1,0 +1,6 @@
+builder:
+  golang: "com.arglos.builder.golang"
+dependencies:
+  golang:
+  - ["github.com/cockroachdb/pebble", "$latest"]
+  - ["go.uber.org/zap", "$latest"]
